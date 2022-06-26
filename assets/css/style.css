@@ -20,6 +20,10 @@ body {
 
 .navbar li {
     float: right;
+    
+}
+li:hover{
+    transform: scale(1.2);
 }
 
 .navbar li a {
@@ -29,6 +33,7 @@ body {
     text-align: center;
     padding: 20px;
     text-decoration: none;
+    background-color: #1F3473;
 }
 
 .navbar li a:hover {
@@ -90,6 +95,30 @@ body {
     margin: 30px;
     background-color: darkgrey;
 }
+.img1:hover{
+transform: scale(1.2);
+}
+.img2:hover{
+    transform:scale(1.2) ;
+    }
+    .img3:hover{
+        transform: scale(1.2);
+        }
+        .img4:hover{
+            transform: scale(1.2) ;
+            }
+            .img5:hover{
+                transform: scale(1.2);
+                }
+                .img6:hover{
+                    transform: scale(1.2);
+                    }
+                    .img7:hover{
+                        transform: scale(1.2);
+
+                        }
+
+
 
 /* *************************************** contacto ***************************************  */
 .Formulario {
