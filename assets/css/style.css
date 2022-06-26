@@ -90,7 +90,49 @@ body {
     margin: 30px;
     background-color: darkgrey;
 }
+.img1:hover{
+transform: scale(1.2);
+}
+.img2:hover{
+    transform:scale(1.2) ;
+    }
+    .img3:hover{
+        transform: scale(1.2);
+        }
+        .img4:hover{
+            transform: scale(1.2) ;
+            }
+            .img5:hover{
+                transform: scale(1.2);
+                }
+                .img6:hover{
+                    transform: scale(1.2);
+                    }
+                    .img7:hover{
+                        transform: scale(1.2);
 
+                        }
+
+.caja_animacion p {
+    @keyframes identifier {
+         animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    
+    /* Multiple animations */
+    animation-direction: normal, reverse;
+    animation-direction: alternate, reverse, normal;
+    
+    /* Global values */
+    animation-direction: inherit;
+    animation-direction: initial;
+    animation-direction: revert;
+    animation-direction: revert-layer;
+    animation-direction: unset;
+    }
+   
+}
 /* *************************************** contacto ***************************************  */
 .Formulario {
     width: 460px;
